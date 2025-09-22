@@ -33,7 +33,6 @@ header, footer {
     background-color: #8acaad;
     color: #454e47;
     padding: 1rem;
-    text-align: center;
 }
 
 .logo {
@@ -45,3 +44,4 @@ body {
   width: 100% !important; 
   margin: 0 !important;
 }
+
