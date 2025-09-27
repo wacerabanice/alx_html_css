@@ -216,7 +216,6 @@ main section:nth-of-type(4) {
 main section:nth-of-type(4) h2 {
   font-size: 2rem;
   margin-bottom: 3rem;
-  color: #c271ff;
 }
 
 main section:nth-of-type(4) > div {
@@ -259,7 +258,9 @@ main section:nth-of-type(5) > div {
   text-align: left;
 }
 
-
+.faq{
+  margin-bottom:10px;
+}
 
 /* ===== Footer ===== */
 footer {
@@ -269,18 +270,22 @@ footer {
   padding: 2rem 1rem;
 }
 
-footer section {
+footer section > div {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
 
-footer img {
+footer section > div img {
   height: 40px;
 }
 
-footer i {
+footer.p {
+  opacity: 0.3;
+}
+
+footer section > div i {
   margin: 0 0.5rem;
   font-size: 1.2rem;
   cursor: pointer;
