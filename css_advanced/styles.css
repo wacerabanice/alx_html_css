@@ -1,0 +1,287 @@
+/* ===== Reset & Base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ===== Header & Nav ===== */
+header {
+  background: transparent;
+  padding: 1rem 2rem;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* ===== Hero Section ===== */
+main section:first-of-type {
+background: url("./images/Object.png") center/cover no-repeat;
+color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+  
+}
+
+main section:first-of-type h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+main section:first-of-type span {
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+
+main section:first-of-type button {
+  margin-top: 2rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  background: #c271ff;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+main section:first-of-type button:hover {
+  background: #a951e0;
+}
+
+/* ===== Learn from the pros ===== */
+main section:first-of-type > div:last-child {
+  margin-top: 4rem;
+}
+
+main section:first-of-type > div:last-child h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+main section:first-of-type > div:last-child h2.highlight {
+  color: #a951e0;
+}
+
+main section:first-of-type > div:last-child > div {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+main section:first-of-type > div:last-child > div > div {
+  text-align: center;
+  max-width: 180px;
+}
+
+main section:first-of-type > div:last-child img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+main section:first-of-type > div:last-child h3 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+main section:first-of-type > div:last-child p {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+/* ===== Testimonial Section ===== */
+main section:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  background: #c271ff;
+  color: #fff;
+}
+
+main section:nth-of-type(2) img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+main section:nth-of-type(2) blockquote {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+main section:nth-of-type(2) h3 {
+  font-weight: bold;
+}
+
+main section:nth-of-type(2) p {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* Tutorials Section */
+main section:nth-of-type(3) {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+main section:nth-of-type(3) h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.hlight{
+  color:#a951e0;
+}
+
+main section:nth-of-type(3) > div {
+  display: inline-block;
+  width: 22%;
+  margin: 1rem;
+  text-align: left;
+}
+
+main section:nth-of-type(3) img:first-child {
+  width: 100%;
+  border-radius: 10px;
+ 
+}
+
+main section:nth-of-type(3) h3 {
+  margin: 0.5rem 0 0.5rem;
+}
+
+main section:nth-of-type(3) > div > div {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+main section:nth-of-type(3) > div > div img {
+  border-radius: 10%;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+
+.fa-star {
+  color: #c271ff;
+}
+
+/* Membership Section */
+main section:nth-of-type(4) {
+  background: #071629;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+main section:nth-of-type(4) h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #c271ff;
+}
+
+main section:nth-of-type(4) > div {
+  display: inline-block;
+  width: 22%;
+  margin: 1rem;
+}
+
+main section:nth-of-type(4) img {
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+main section:nth-of-type(4) button {
+  background: #c271ff;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 0.8rem 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* FAQ Section */
+main section:nth-of-type(5) {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+main section:nth-of-type(5) h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+main section:nth-of-type(5) > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  text-align: left;
+}
+
+
+
+/* ===== Footer ===== */
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer img {
+  height: 40px;
+}
+
+footer i {
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
